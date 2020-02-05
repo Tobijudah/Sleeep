@@ -1,0 +1,54 @@
+body {
+	color: #59432b;
+}
+
+#header {
+	background: url(sleep.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ebdac5;
+}
+
+.display-1 , .btn , h5 {
+	font-family: 'Lobster', cursive;
+}
+
+hr {
+	border: 1px solid #ebdac5;
+	width: 50%;
+}
+
+.btn-secondary {
+	background-color: transparent;
+	color: #ebdac5;
+	border: 1.5px solid #ebdac5;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color:#ebdac5;
+    border-color:#ebdac5;
+}
+
+.btn-outline-success {
+	background-color: transparent;
+	border-color: #59432b;
+	color: #59432b;
+}
+
+.lead {
+	font-size: 2rem;
+}
+.display-1 {
+	font-size: 8rem
+}
+#copy {
+	color: black;
+}
+
+.btn-outline-success:hover{
+	color: #fff;
+	background-color: #59432b;
+    border-color: #59432b;
+}
