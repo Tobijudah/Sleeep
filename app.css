@@ -26,7 +26,7 @@ hr {
 }
 
 .btn-secondary:hover {
-    color: #fff;
+    color: #59432b;
     background-color:#ebdac5;
     border-color:#ebdac5;
 }
@@ -35,6 +35,7 @@ hr {
 	background-color: transparent;
 	border-color: #59432b;
 	color: #59432b;
+
 }
 
 .lead {
@@ -47,8 +48,14 @@ hr {
 	color: black;
 }
 
-.btn-outline-success:hover{
+
+.btn-outline-success:active, .btn-outline-success:hover, .btn-outline-success:not(:disabled):not(.disabled):active{
 	color: #fff;
 	background-color: #59432b;
     border-color: #59432b;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-success.dropdown-toggle:focus, .btn-outline-success:not(:disabled):not(.disabled):active, .btn-outline-success:focus, .btn:focus, .btn-outline-success:not(:disabled):not(.disabled):active{
+	outline: none;
+    box-shadow: none;
 }
