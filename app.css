@@ -10,6 +10,7 @@ body {
 	color: #ebdac5;
 	max-width: 100%;
 	height:auto; 
+	border-radius: 0rem;
 }
 
 .card-img-top {
