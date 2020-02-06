@@ -8,6 +8,13 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #ebdac5;
+	max-width: 100%;
+	height:auto; 
+}
+
+.card-img-top {
+	max-width: 100%;
+	height:auto; 
 }
 
 .display-1 , .btn , h5 {
